@@ -7,16 +7,17 @@
   <body>
     <div id="app">
       <h2>v-text 디렉티브 테스트</h2>
-      <!-- v-text 디렉티브 -->
-      <div id="v_text_div" v-text="htmlMessage"></div>
+      <!-- v-text 디렉티브를 사용해 div 안에 메시지를 표현하세요 -->
+      <div id="v_text_div"></div>
 
       <h2>v-html 디렉티브 테스트</h2>
-      <!-- v-text 디렉티브 -->
-      <div id="v_text_div" v-html="htmlMessage"></div>
+      <!-- v-html 디렉티브를 사용해 div 안에 메시지를 표현하세요 -->
+      <div id="v_text_div"></div>
     </div>
     <script type="text/javascript">
       var model = {
-        htmlMessage : "<b>Hello Vue World!</b>",
+        //HTML을 포함한 메시지를 작성해보세요.
+        htmlMessage : "",
       }
 
       var vm = new Vue({
