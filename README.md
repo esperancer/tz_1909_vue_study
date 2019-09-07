@@ -22,16 +22,13 @@
             * Atom 설치
             * Atom 테마 및 플러그인 설치
             * Source Tree 설치
+     - 10:00 ~ 10:50
+        - 최초의 Vue 컴포넌트 작성하기
+            * Hello World 작성(실습) 및 Git 커밋하기
+	    * MVVM 모델 간략 설명.
         - Vue의 이해
             * Vue의 특징 및 Vue의 장단점 설명
             * Vue와 JQuery를 사용할 때 주의할 점
-     - 10:00 ~ 10:50
-        - Vue를 사용하는 세 가지 방법 설명
-            * js 임포트 / CDN 방식 (사실상 동일)
-            * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
-            * SFC가 가지는 장점 및 차이점 소개
-        - 최초의 Vue 컴포넌트 작성하기
-            * Hello World 작성(실습)
         - Vue의 라이프 사이클 이해하기
             * Vue 컴포넌트의 라이프 사이클 간단 설명
             * create, mounted, update, destroyed 등(실습)
@@ -47,6 +44,10 @@
             * v-bind
             * v-if / v-else / v-else-if
             * v-show
+        - Vue를 사용하는 세 가지 방법 설명
+            * js 임포트 / CDN 방식 (사실상 동일)
+            * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
+            * SFC가 가지는 장점 및 차이점 소개
         - 향후 커리큘럼 진행 방향 안내
             * 왜 SFC를 써야하는가?
             * Webpack, Babel 등에 대한 간단 설명
