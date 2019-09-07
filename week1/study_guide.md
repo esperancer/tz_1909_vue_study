@@ -19,6 +19,8 @@ https://nodejs.org/ko/
 #### -g는 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 입력하는 위치 상관없음)
 ```npm install -g @vue/cli```
 
+(참고) 글로벌 설치시 `C:\Users\%username%\AppData\Roaming\npm\node_modules` 하위로 설치됩니다. 
+
 
 ## 2. 커리큘럼(초안)
   * 1주차(09.08 일요일 / 09:00 ~ 13:00)
