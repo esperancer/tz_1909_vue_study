@@ -2,3 +2,6 @@
 
 원본 출처 : https://012.vuejs.org/images/mvvm.png
 2차 출처 : https://kkodu.tistory.com/4
+
+02_lifecycle.png 
+원본 출처 : https://kr.vuejs.org/images/lifecycle.png
