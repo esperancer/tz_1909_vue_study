@@ -15,12 +15,25 @@ https://nodejs.org/ko/
 
 ```C:\Users\oxide>npm --version```
 
-### 1.2 Vue Clie 3 글로벌 설치
-#### -g는 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 입력하는 위치 상관없음)
-```npm install -g @vue/cli```
 
+### 1.2 Vue Cli 3 글로벌 설치
+
+#### 1.2.1 cmd에서 글로벌 설치 명령어 수행
+```npm install -g @vue/cli```
+###### -g는 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 실행하는 위치 상관없음)
 (참고) 글로벌 설치시 `C:\Users\%username%\AppData\Roaming\npm\node_modules` 하위로 설치됩니다. 
 
+#### 1.2.2 글로벌 설치 여부 확인
+
+###### cmd를 열고 아무 위치에서나 `vue ui` 명령어 입력
+
+
+### 1.3 Atom 및 플러그인 설치
+
+#### 1.3.1 Atom 설치
+https://atom.io/
+
+###### Atom은 Github에서 제공하는 오픈소스 텍스트 에디터로, 프론트 개발시 Sublime Text, VS Code 등과 함께 종종 사용되고 있습니다.
 
 ## 2. 커리큘럼(초안)
   * 1주차(09.08 일요일 / 09:00 ~ 13:00)
