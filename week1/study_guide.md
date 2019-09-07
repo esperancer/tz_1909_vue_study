@@ -7,11 +7,12 @@
 #### 1.1.1 Node 설치 여부 확인(cmd)
 ```C:\Users\oxide>node --version```
      
-#### 1.1.2 Node(+NPM) 설치 파일 다운로드 
+#### 1.1.2 Node 설치 파일 다운로드 
 https://nodejs.org/ko/
 
-#### 1.1.3 Node(+NPM) 설치 파일 다운로드 
+#### 1.1.3 Node 설치 여부 재확인(cmd)
 ```C:\Users\oxide>node --version```
+
 ```C:\Users\oxide>npm --version```
 
 ### 1.2 Vue Clie 3 글로벌 설치
