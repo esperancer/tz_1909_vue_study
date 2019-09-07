@@ -15,13 +15,7 @@
           <td>휴대폰 번호</td>
           <td>개통 통신사</td>
         </tr>
-        <tr v-bind:style="index % 2 == 0 ? 'background-color: rgb(240, 240, 240);' : ''" v-for="(val, key, index) in userListObj">
-          <td>{{index + 1}}</td>
-          <td>{{val.name}}</td>
-          <td>{{val.shipping_address}}</td>
-          <td>{{val.phone_number}}</td>
-          <td>{{val.phone_carrier}}</td>
-        </tr>
+        <!-- v-for를 사용하는 tr을 여기에 추가하여 목록을 표시해주세요 -->
       </table>
 
     </div>
