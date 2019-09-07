@@ -52,7 +52,7 @@
      - 12:00 ~ 12:50
         - Vue의 기본 문법 익히기(기타 디렉티브)
             * v-pre
-	    * v-once
+            * v-once
         - Vue를 사용하는 세 가지 방법 설명
             * js 임포트 / CDN 방식 (사실상 동일)
             * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
