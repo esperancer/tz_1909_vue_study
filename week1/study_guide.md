@@ -8,7 +8,7 @@
 ```C:\Users\oxide>node --version```
      
 #### 1.1.2 Node 설치
-https://nodejs.org/ko/ 에서 설치파일 다운로드 및 실행
+A. https://nodejs.org/ko/ 에서 설치파일 다운로드 및 실행
 
 #### 1.1.3 Node 설치 여부 재확인(cmd)
 ```C:\Users\oxide>node --version``` 또는
@@ -32,18 +32,23 @@ https://nodejs.org/ko/ 에서 설치파일 다운로드 및 실행
 ###### (참고) Atom은 Github에서 제공하는 오픈소스 텍스트 에디터로, 프론트 개발시 Sublime Text, VS Code 등과 함께 종종 사용되고 있습니다.
 
 #### 1.3.1 Atom 설치
-https://atom.io/ 에서 설치파일 다운로드 및 실행
+A. https://atom.io/ 에서 설치파일 다운로드 및 실행
 
 #### 1.3.2 Atom 플러그인 설치
-###### 참고 Setting 메뉴 단축키 `Ctrl + ,(콤마)`
+###### (참고) Setting 메뉴 단축키 `Ctrl + ,(콤마)`
+###### (참고) 이 테마는 파일 확장명에 따른 직관적인 아이콘과 색상 등으로 파일의 명확한 구분이 가능하게 해줍니다. (Atom 사용시 추천 테마)
 
 [테마 설치] 
-Settings > Install > install Packages에서 Themes로 모드를 변경 후 아래 키워드 검색하여 설치
+A. Settings > Install > install Packages에서 Themes로 모드를 변경 후 아래 키워드 검색하여 설치
   * seti-ui
   * atom-material-syntax-dark
   
+B. Settings > Themes > Choose a Theme > UI Theme에서 seti 선택하여 적용
+C. Settings > Themes > Choose a Theme > Syntax Theme에서 Atom Material Dark 선택하여 적용
+
+  
 [플러그인 설치] 
-Settings > Install > 상단 Install Themes에서 Packages로 모드를 변경 후 아래 키워드 검색하여 설치
+A. Settings > Install > 상단 Install Themes에서 Packages로 모드를 변경 후 아래 키워드 검색하여 설치
   * atom-beautify
   * autoclose-html
   * highlight-selected
@@ -55,7 +60,7 @@ Settings > Install > 상단 Install Themes에서 Packages로 모드를 변경 �
 ### 1.4 Source Tree 설치 및 Github 프로젝트 생성
 ###### (참고) 소스트리는 Git을 시각적으로 보여주고 버전 관리하기 용이하도록 해주는 Git 전용툴입니다.
 
-https://www.sourcetreeapp.com/ 에서 설치파일 다운로드 및 실행
+A. https://www.sourcetreeapp.com/ 에서 설치파일 다운로드 및 실행
 
 ※ 설치시 Atlassian 계정을 만들고 진행
 
