@@ -16,8 +16,9 @@ https://nodejs.org/ko/
 ```C:\Users\oxide>npm --version```
 
 ### 1.2 Vue Clie 3 글로벌 설치
+#### -g는 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 입력하는 위치 상관없음)
+```npm install -g @vue/cli```
 
-  
 
 ## 2. 커리큘럼(초안)
   * 1주차(09.08 일요일 / 09:00 ~ 13:00)
