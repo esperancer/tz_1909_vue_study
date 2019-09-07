@@ -22,25 +22,30 @@
             * Atom 설치
             * Atom 테마 및 플러그인 설치
             * Source Tree 설치
+        - Vue의 이해
+            * Vue의 특징 및 Vue의 장단점 설명
+            * Vue와 JQuery를 사용할 때 주의할 점
      - 10:00 ~ 10:50
         - 최초의 Vue 어플리케이션 작성하기
             * Hello World 작성(실습) 및 Git 커밋하기
 	    * MVVM 모델 간략 설명.
-        - Vue의 이해
-            * Vue의 특징 및 Vue의 장단점 설명
-            * Vue와 JQuery를 사용할 때 주의할 점
         - Vue의 라이프 사이클 이해하기
             * Vue 컴포넌트의 라이프 사이클 간단 설명
             * create, mounted, update, destroyed 등(실습)
-     - 11:00 ~ 11:50
-
-     - 12:00 ~ 12:50
-        - Vue의 기본 문법 익히기(디렉티브)
-            * v-for
-            * v-on
+        - Vue의 기본 문법 익히기(기본 디렉티브)
+            * v-text, v-html
             * v-bind
+     - 11:00 ~ 11:50
+        - Vue의 기본 문법 익히기(기본 디렉티브)
+            * v-model (양방향 디렉티브)
             * v-if / v-else / v-else-if
             * v-show
+        - Vue의 기본 문법 익히기(반복 디렉티브)
+            * v-for
+     - 12:00 ~ 12:50
+        - Vue의 기본 문법 익히기(기타 디렉티브)
+            * v-pre
+	    * v-once
         - Vue를 사용하는 세 가지 방법 설명
             * js 임포트 / CDN 방식 (사실상 동일)
             * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
@@ -51,17 +56,21 @@
   * 추석주간(09.15 / 스터디 없음)
   * 2주차(09.22 일요일 / 09:00 ~ 13:00)
      - 09:00 ~ 09:50
+        - Vue의 계산형 속성
+            * computed
+        - Vue의 관찰 속성
+            * watch
         - Vue의 컴포넌트 개념 및 데이터 전달 방식 이해하기
             * Vue 전역 컴포넌트와 지역 컴포넌트의 이해(실습)
             * Vue 컴포넌트간의 데이터 전달 방식 이해(실습 / event 및 prop 전달 방식)
             * 이벤트 버스를 통한 데이터 전달 방식 이해(실습 / +vuex 간단 소개)
-        - Vue 라우터 구성하기
-            * Vue Router와 Nested Router (실습)
-	    * 화면 레이아웃 구성해보기 (실습)
      - 10:00 ~ 10:50
         - Vuex 사용하기
             * Vuex의 특징 및 사용하는 이유
 	    * Vuex를 통한 다른 컴포넌트로의 데이터 전달 (실습)
+        - Vue 라우터 구성하기
+            * Vue Router와 Nested Router (실습)
+	    * 화면 레이아웃 구성해보기 (실습)
      - 11:00 ~ 11:50
         - Axios
 	    * Axios 설명 및 사용법 안내
