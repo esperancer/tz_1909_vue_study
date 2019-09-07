@@ -20,8 +20,8 @@
         - 환경설정(실습)
             * Node.js / NPM 설치
             * ~Vue CLI 3 설치~ (SFC 구현 시점에 설치함)
-	    * Atom 설치
-	    * Atom 테마 및 플러그인 설치
+            * Atom 설치
+            * Atom 테마 및 플러그인 설치
             * Source Tree 설치
         - Vue의 이해
             * Vue의 특징 및 Vue의 장단점 설명
