@@ -23,7 +23,7 @@
             * Atom 테마 및 플러그인 설치
             * Source Tree 설치
      - 10:00 ~ 10:50
-        - 최초의 Vue 컴포넌트 작성하기
+        - 최초의 Vue 어플리케이션 작성하기
             * Hello World 작성(실습) 및 Git 커밋하기
 	    * MVVM 모델 간략 설명.
         - Vue의 이해
