@@ -102,6 +102,8 @@ B. Hello, Vue World!를 찍어보기
 
 ### 2.2 Vue 라이프 사이클의 이해
 
+(참고 이미지) Vue의 라이프 사이클 ![Vue life-cycle](./study_guide_image/02_lifecycle_re.png)
+
 #### 2.2.1 라이프 사이클의 순서 및 종류
 
 **1. beforeCreate**
@@ -135,8 +137,6 @@ template 속성에 지정한 마크업 속성이 있는 경우 이를 자바스�
 **8. destroyed**
 
 뷰 인스턴스가 제거되고 나서 호출되는 단계. 별도로 사용되지 않음.
-
-(참고 이미지) Vue의 라이프 사이클 ![Vue life-cycle](./study_guide_image/02_lifecycle_re.png)
 
 -----------------------------------------------------
 
