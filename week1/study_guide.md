@@ -191,7 +191,9 @@ template 속성에 지정한 마크업 속성이 있는 경우 이를 자바스�
 
 ## 4. Vue를 사용하는 세 가지 방법. 그리고 Vue-CLI 3을 통한 SFC(Single File Component) 맛보기
 
-### 4.1 Vue를 사용하는 세 가지 방법
+### 4.1 Vue를 사용하는 방법
+
+A. 간단한 두가지 방법 소개 링크 : https://kr.vuejs.org/v2/guide/index.html
 
 ### 4.2 Vue-CLI 3을 통한 SFC(Single File Component) 맛보기
 
