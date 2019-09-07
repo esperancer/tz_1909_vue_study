@@ -69,6 +69,12 @@ A. https://www.sourcetreeapp.com/ 에서 설치파일 다운로드 및 실행
 
 ※ 설치시 Atlassian 계정을 만들고 진행
 
+B. https://github.com/new 로 접속해서 Github에 새로운 Repository로 `vue_study_week1`를 만들기
+
+C. Git 저장소 URL을 복사한 후 Source Tree에 Clone으로 저장소 복제하기(로컬 Git 생성)
+
+
+
 ### 2.1 Vue 개요
 #### 2.1.1 Vue의 특징 및 장단점
 #### 2.1.2 Vue와 JQuery의 사용
@@ -86,15 +92,15 @@ A. https://www.sourcetreeapp.com/ 에서 설치파일 다운로드 및 실행
             * Vue의 특징 및 Vue의 장단점 설명
             * Vue와 JQuery를 사용할 때 주의할 점
      - 10:00 ~ 10:50
-        - Vue를 사용하는 세 가지 방법 설명
-            * js 임포트 / CDN 방식 (사실상 동일)
-            * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
-            * SFC가 가지는 장점 및 차이점 소개
         - 최초의 Vue 컴포넌트 작성하기
             * Hello World 작성(실습)
         - Vue의 라이프 사이클 이해하기
             * Vue 컴포넌트의 라이프 사이클 간단 설명
             * create, mounted, update, destroyed 등(실습)
+        - Vue를 사용하는 세 가지 방법 설명
+            * js 임포트 / CDN 방식 (사실상 동일)
+            * SFC 방식 및 .vue 파일의 구조 설명(Single File Component)
+            * SFC가 가지는 장점 및 차이점 소개
      - 11:00 ~ 11:50
         - Vue의 컴포넌트 개념 및 데이터 전달 방식 이해하기
             * Vue 전역 컴포넌트와 지역 컴포넌트의 이해(실습)
