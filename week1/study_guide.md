@@ -7,11 +7,11 @@
 #### 1.1.1 Node 설치 여부 확인(cmd)
 ```C:\Users\oxide>node --version```
      
-#### 1.1.2 Node 설치 파일 다운로드 
-https://nodejs.org/ko/
+#### 1.1.2 Node 설치
+https://nodejs.org/ko/ 에서 설치파일 다운로드 및 실행
 
 #### 1.1.3 Node 설치 여부 재확인(cmd)
-```C:\Users\oxide>node --version```
+```C:\Users\oxide>node --version``` 또는
 
 ```C:\Users\oxide>npm --version```
 
@@ -32,16 +32,18 @@ https://nodejs.org/ko/
 ###### (참고) Atom은 Github에서 제공하는 오픈소스 텍스트 에디터로, 프론트 개발시 Sublime Text, VS Code 등과 함께 종종 사용되고 있습니다.
 
 #### 1.3.1 Atom 설치
-https://atom.io/
+https://atom.io/ 에서 설치파일 다운로드 및 실행
 
 #### 1.3.2 Atom 플러그인 설치
 ###### 참고 Setting 메뉴 단축키 `Ctrl + ,(콤마)`
 
-[테마 설치] Install > install Packages에서 Themes로 모드를 변경 후 아래 키워드 검색하여 설치
+[테마 설치] 
+Settings > Install > install Packages에서 Themes로 모드를 변경 후 아래 키워드 검색하여 설치
   * seti-ui
   * atom-material-syntax-dark
   
-[플러그인 설치] Install > 상단 Install Themes에서 Packages로 모드를 변경 후 아래 키워드 검색하여 설치
+[플러그인 설치] 
+Settings > Install > 상단 Install Themes에서 Packages로 모드를 변경 후 아래 키워드 검색하여 설치
   * atom-beautify
   * autoclose-html
   * highlight-selected
@@ -50,8 +52,12 @@ https://atom.io/
   * language-vue
   * platformio-ide-terminal
   
-### 1.4 Source Tree 설치
-https://www.sourcetreeapp.com/
+### 1.4 Source Tree 설치 및 Github 프로젝트 생성
+###### (참고) 소스트리는 Git을 시각적으로 보여주고 버전 관리하기 용이하도록 해주는 Git 전용툴입니다.
+
+https://www.sourcetreeapp.com/ 에서 설치파일 다운로드 및 실행
+
+※ 설치시 Atlassian 계정을 만들고 진행
 
 ### 2.1 Vue 개요
 #### 2.1.1 Vue의 특징 및 장단점
