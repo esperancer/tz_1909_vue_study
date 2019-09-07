@@ -7,15 +7,24 @@
   <body>
     <div id="app">
       <div>
-        <input v-model="message" placeholder="문자를 입력해보세요." />
+        <div>
+          귤과 사과 그리고 바나나 중 어떤 과일을 좋아하는지 입력해주세요?
+        </div>
+
+        <input v-model="result" placeholder="귤과 사과, 바나나 중 하나를 입력해주세요" style="width: 400px;"/>
         <br /><br />
-        <span>input message : {{message}}</span>
+        <div id="image_area">
+          <img v-if="result == '사과'" src="https://raw.githubusercontent.com/esperancer/tz_1909_vue_study/master/week1/study_guide_image/img_apple.jpg" />
+          <img v-else-if="result == '귤'" src="https://raw.githubusercontent.com/esperancer/tz_1909_vue_study/master/week1/study_guide_image/img_tangerine.jpg" />
+          <img v-else-if="result == '바나나'" src="https://raw.githubusercontent.com/esperancer/tz_1909_vue_study/master/week1/study_guide_image/img_banana.jpg" />
+          <span v-else>현재 아무것도 고르지 않았습니다.</span>
+        </div>
       </div>
 
     </div>
     <script type="text/javascript">
       var model = {
-        message : "Hello Vue World!"
+        result : ""
       }
 
       var vm = new Vue({
