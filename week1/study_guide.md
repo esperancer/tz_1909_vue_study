@@ -89,7 +89,7 @@ C. Git 저장소 URL을 복사한 후 Source Tree에 Clone으로 저장소 복�
 
 (참고 이미지) Vue MVVM 개요 ![Vue MVVM](./study_guide_image/01_mvvm.png)
 
-(참고 이미지) Vue 컴포넌트의 라이프 사이클 ![Vue life-cycle](./study_guide_image/02_lifecycle.png | width=100)
+(참고 이미지) Vue 컴포넌트의 라이프 사이클 ![Vue life-cycle](./study_guide_image/02_lifecycle_re.png)
 
 -----------------------------------------------------
 
