@@ -74,10 +74,19 @@ B. https://github.com/new 로 접속해서 Github에 새로운 Repository로 `vu
 C. Git 저장소 URL을 복사한 후 Source Tree에 Clone으로 저장소 복제하기(로컬 Git 생성)
 
 
+### 1.5 Vue 개요
+#### 1.5.1 Vue의 특징 및 장단점
+#### 1.5.2 Vue와 JQuery의 사용
 
-### 2.1 Vue 개요
-#### 2.1.1 Vue의 특징 및 장단점
-#### 2.1.2 Vue와 JQuery의 사용
+## 2. 최초의 Vue 컴포넌트 작성하기 (10:00 ~ 10:50)
+
+(참고 이미지) Vue MVVM 개요 ![Vue MVVM](./study_guide_image/01_mvvm.png)
+
+### 3
+
+
+
+
 
 ## 2. 커리큘럼(초안)
   * 1주차(09.08 일요일 / 09:00 ~ 13:00)
