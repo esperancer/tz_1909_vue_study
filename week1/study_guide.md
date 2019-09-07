@@ -207,6 +207,10 @@ A. 간단한 두가지 방법 소개 링크 : https://kr.vuejs.org/v2/guide/inde
 
 ### 4.2 Vue-CLI 3을 통한 SFC(Single File Component) 맛보기
 
+A. 로컬 Git에서 vue ui 명령어로 5_single_file_component 프로젝트 생성해보기
+
+B. package.json 및 node_modules 간략 설명.
+
 -----------------------------------------------------
 
 ### 4.3 왜 SFC 방식을 써야하는가?
