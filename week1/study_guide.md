@@ -20,20 +20,42 @@ https://nodejs.org/ko/
 
 #### 1.2.1 cmd에서 글로벌 설치 명령어 수행
 ```npm install -g @vue/cli```
-###### -g는 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 실행하는 위치 상관없음)
-(참고) 글로벌 설치시 `C:\Users\%username%\AppData\Roaming\npm\node_modules` 하위로 설치됩니다. 
+###### (참고) -g 옵션은 글로벌 설치를 의미합니다. (글로벌 설치일 때는 커맨드를 실행하는 위치 상관없음)
+###### (참고) 글로벌 설치시 `C:\Users\%username%\AppData\Roaming\npm\node_modules` 하위로 설치됩니다. 
 
 #### 1.2.2 글로벌 설치 여부 확인
 
-###### cmd를 열고 아무 위치에서나 `vue ui` 명령어 입력
+###### cmd를 열고 아무 위치에서나 `vue ui` 명령어 입력하여 vue 프로젝트 세팅용 브라우저 화면이 표시되는지 확인
 
 
 ### 1.3 Atom 및 플러그인 설치
+###### (참고) Atom은 Github에서 제공하는 오픈소스 텍스트 에디터로, 프론트 개발시 Sublime Text, VS Code 등과 함께 종종 사용되고 있습니다.
 
 #### 1.3.1 Atom 설치
 https://atom.io/
 
-###### Atom은 Github에서 제공하는 오픈소스 텍스트 에디터로, 프론트 개발시 Sublime Text, VS Code 등과 함께 종종 사용되고 있습니다.
+#### 1.3.2 Atom 플러그인 설치
+###### 참고 Setting 메뉴 단축키 `Ctrl + ,(콤마)`
+
+[테마 설치] Install > install Packages에서 Themes로 모드를 변경 후 아래 키워드 검색하여 설치
+  * seti-ui
+  * atom-material-syntax-dark
+  
+[플러그인 설치] Install > 상단 Install Themes에서 Packages로 모드를 변경 후 아래 키워드 검색하여 설치
+  * atom-beautify
+  * autoclose-html
+  * highlight-selected
+  * color-picker
+  * javascript-snippets
+  * language-vue
+  * platformio-ide-terminal
+  
+### 1.4 Source Tree 설치
+https://www.sourcetreeapp.com/
+
+### 2.1 Vue 개요
+#### 2.1.1 Vue의 특징 및 장단점
+#### 2.1.2 Vue와 JQuery의 사용
 
 ## 2. 커리큘럼(초안)
   * 1주차(09.08 일요일 / 09:00 ~ 13:00)
