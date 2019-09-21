@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js</title>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        [아래 입력된 두 수의 곱하기]<br /><br />
+
+        <!-- 기존 v-model 양방향 바인딩을 통한 값 변경 -->
+        <input type="text" placeholder="숫자를 입력해주세요" /> <br /><br />
+
+        <!-- 기존 v-model 양방향 바인딩을 통한 값 변경 -->
+        <input type="text" placeholder="숫자를 입력해주세요" />
+      </div>
+      <br />
+
+      <!-- 결과값 표시 구간 -->
+      <div>
+
+      </div>
+    </div>
+    <script type="text/javascript">
+      var model = {
+
+      }
+
+      var vm = new Vue({
+        el : "#app",
+        data : model,
+        /**
+          watch는 data에 정의된 속성값과
+          일치하는 함수명을 가지고 있는 함수가 정의되어 있을 경우
+          해당 data의 값을 추적하여 값이 변경될 때마다 해당 함수가 호출된다.
+
+          watch에 정의된 함수가 받는 인자값은 추적 중인 속성의 변경 값이 들어오게 되며,
+          이 함수는 일반적으로 추적 중인 속성을 변경하는 것이 아닌,
+          이 추적되는 값의 변경으로 인해 다른 값이 변경되어야 할 때 사용한다.
+
+          그러나 일반적으로는 계산형 속성(computed)로 구현이 가능한 경우, computed를 사용해야한다.
+          공식 가이드 문서는 watch와 computed가 같이 사용 가능한 케이스인 경우
+          computed를 사용하도록 권장하고 있다.
+
+          많은 개발자들이 watch와 computed의 메커니즘이 유사하여 혼동스럽다고 말하지만,
+          computed는 단순히 계산된 결과값을 표현해야 하는 경우,
+          watch는 어떤 조건이 되었을 때 다른 값에도 그 영향을 주는 경우에 적합하다고 할 수 있다.
+
+          watch는 비동기 방식으로 API 호출 후 다른 결과값을 변경해야하는 상황처럼
+          (프론트 기준으로) 상당히 긴 시간을 필요로 하는 경우에만 제한적으로 사용할 것을 권장하고 있다.
+         */
+
+        watch : {
+
+        }
+      });
+    </script>
+  </body>
+</html>

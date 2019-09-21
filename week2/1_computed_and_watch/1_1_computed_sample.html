@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js</title>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        [아래 입력된 수까지의 팩토리얼 구하기]<br /><br />
+
+        팩토리얼이란? 1부터 주어진 숫자까지 곱한 것을 말합니다. <br />
+        숫자 뒤에 느낌표를 찍어서 팩토리얼을 표현합니다.<br /><br />
+        예시) 3! = 1 x 2 x 3 = 6<br /><br />
+
+        <!-- 기존 v-model 양방향 바인딩을 통한 값 변경 -->
+        <input type="text" placeholder="숫자를 입력해주세요" v-model:value="maxNumber" />
+      </div>
+      <br />
+      <div>
+        <!-- 결과내용 표시 구간 -->
+
+      </div>
+    </div>
+    <script type="text/javascript">
+      var model = {
+        maxNumber : 1
+      }
+
+      var vm = new Vue({
+        el : "#app",
+        data : model,
+        computed : {
+          /**
+            계산형 속성 Computed.
+
+            computed 함수는 추적하는 값(여기서는 maxNumber가 해당됨)이 달라지지 않는 한
+            결과값을 재계산하지 않고 캐싱한 값을 계속해서 사용합니다.
+
+            또한 computed는 반드시 return 값을 가져야 합니다.
+          */
+          calculateFactorialWithComputed : function() {
+            console.log("Current Date : " + Date.now())
+
+            var vm = this;
+            var maxNumber = vm.maxNumber;
+
+            var factorialNumber = 1;
+
+            for(var i=1; i <= maxNumber; i++) {
+              factorialNumber *= i;
+            }
+
+            return factorialNumber;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js</title>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        [아래 입력된 수까지의 팩토리얼 구하기]<br /><br />
+
+        팩토리얼이란? 1부터 주어진 숫자까지 곱한 것을 말합니다. <br />
+        숫자 뒤에 느낌표를 찍어서 팩토리얼을 표현합니다.<br /><br />
+        예시) 3! = 1 x 2 x 3 = 6<br /><br />
+
+        <!-- 기존 v-model 양방향 바인딩을 통한 값 변경 -->
+        <input type="text" placeholder="숫자를 입력해주세요" />
+
+        <!--
+          v-on 디렉티브를 통해 클릭 이벤트 바인딩
+          팩토리얼 계산을 처리하도록 한다.
+        -->
+        <button>계산하기</button>
+      </div>
+      <br />
+      <div v-show="displayResultText">
+        1부터 {{maxNumber}}까지 계산된 팩토리얼 값은 {{factorialNumber}}입니다.
+      </div>
+    </div>
+    <script type="text/javascript">
+      var model = {
+        maxNumber : 1,
+        factorialNumber : 0,
+        displayResultText : false //계산된 결과 영역 보여주기 여부 플래그
+      }
+
+      var vm = new Vue({
+        el : "#app",
+        data : model,
+        methods : {
+          calculateFactorial : function() {
+            console.log("Current Date : " + Date.now())
+
+            var vm = this;
+            /** 계산식 적용 구간 시작 */
+
+            /** 계산식 적용 구간 종료 */
+            vm.displayResultText = true;
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

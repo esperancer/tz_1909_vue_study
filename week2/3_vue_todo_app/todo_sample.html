@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js</title>
+    <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+    <style>
+      * {  box-sizing: border-box;  }
+      ul {  margin: 0; padding: 0; }
+      ul li {
+          cursor: pointer; position: relative; padding: 8px 8px 8px 40px;
+          background: #eee; font-size: 14px;  transition: 0.2s;
+          -webkit-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+      }
+      ul li:hover {  background: #ddd;  }
+      ul li.checked {
+          background: #BBB;  color: #fff; text-decoration: line-through;
+      }
+      ul li.checked::before {
+          content: ''; position: absolute; border-color: #fff;
+          border-style: solid; border-width: 0px 1px 1px 0px;
+          top: 10px; left: 16px;  transform: rotate(45deg);
+          height: 8px; width: 8px;
+      }
+      .close {
+          position: absolute; right: 0; top: 0;
+          padding: 12px 16px 12px 16px
+      }
+      .close:hover {
+          background-color: #f44336;  color: white;
+      }
+      .header {
+          background-color: purple; padding: 30px 30px;
+          color: yellow; text-align: center;
+      }
+      .header:after {
+          content: ""; display: table; clear: both;
+      }
+      .input {
+          border: none; width: 75%; height:35px; padding: 10px;
+          float: left; font-size: 16px;
+      }
+      .addbutton {
+          padding: 10px; width: 25%; height:35px; background: #d9d9d9;
+          color: #555; float: left; text-align: center;
+          font-size: 13px; cursor: pointer; transition: 0.3s;
+      }
+      .addbutton:hover { background-color: #bbb; }
+      .completed { text-decoration:none; }
+    </style>
+  </head>
+  <body>
+    <div id="todolistapp">
+      <div id="header" class="header">
+        <h2>Todo List App</h2>
+        <!--
+          1. 양방향 바인딩 적용
+          2. 엔터키 이벤트로 todo가 추가될 수 있도록 할 것
+        -->
+        <input class="input" type="text" id="task" placeholder="입력 후 엔터!" >
+        <span class="addbutton" v-on:click="addTodo">추 가</span>
+      </div>
+      <ul id="todolist">
+        <!--
+          3. ul 하위로 추가될 todo를 li 태그 밑에 3개의 span 구조로 구현할 것(할일, 완료여부 표시, 삭제 버튼)
+             더미데이터 참조
+          4. 할 일은 진행 중 상태와 완료 상태를 가질 수 있음. todo를 눌렀을 때 완료 처리/진행 중 상태를 토글 형태로 변경할 수 있도록 구현
+          5. 할 일은 우측 끝의 x버튼을 통해 삭제가 될 수 있음.
+        -->
+        <li>
+          <span>할 일 더미데이터</span>
+          <span></span>
+          <span class="close">&#x00D7;</span>
+        </li>
+        <li class="checked">
+          <span>완료한 일 더미데이터</span>
+          <span> (완료)</span>
+          <span class="close">&#x00D7;</span>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      var vm = new Vue({
+        el : "#todolistapp",
+        data : {
+          todo : "",
+          todolist : [
+            { id:1, todo : "영화보기", done:false },
+            { id:2, todo : "주말 산책", done:true },
+            { id:3, todo : "ES6 학습", done:false },
+            { id:4, todo : "잠실 야구장", done:false }
+          ]
+        },
+        methods : {
+          completedTodo : function(done) {
+            return {
+              checked : done ? true : false
+            };
+          },
+          findTodoIndex: function(targetId, list) {
+            this.todolist.findIndex(function(item) {
+              return item.id === targetId;
+            })
+          },
+          addTodo : function(e) {
+            //todo에 필요한 데이터를 만들어 todolist의 끝부분에 새로운 todo가 등록되도록 구현할 것
+
+          },
+          deleteTodo : function(id) {
+            //splice를 이용하여 todolist에서 해당 데이터를 지우도록 구현할 것. index, +1
+
+          },
+          /** 토글 버튼으로 진행 중/완료 처리를 구현할 것. */
+          doneToggle : function(id) {
+
+          }
+        }
+      })
+    </script>
+  </body>
+</html>
